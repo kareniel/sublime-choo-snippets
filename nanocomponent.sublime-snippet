@@ -1,0 +1,27 @@
+<snippet>
+  <content>
+<![CDATA[
+var html = require('choo/html')
+var Nanocomponent = require('nanocomponent')
+
+function Component () {
+  if (!(this instanceof Component)) return new Component()
+
+  Nanocomponent.call(this)
+}
+
+Component.prototype = Object.create(Nanocomponent.prototype)
+
+Component.prototype.createElement = function () {
+  return html`
+    <div>$0</div>
+  `
+}
+
+Component.prototype.update = function () {
+  return false
+}
+]]>
+  </content>
+  <tabTrigger>nanocomponent</tabTrigger>
+</snippet>

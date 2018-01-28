@@ -1,0 +1,25 @@
+<snippet>
+  <content>
+<![CDATA[
+var choo = require('choo')
+var html = require('choo/html')
+var app = choo()
+
+choo.use(store)
+choo.route('/', mainView)
+choo.mount('body')
+
+function store (state, emitter) {
+  emitter.on('DOMContentLoaded', function () {
+    $0
+  })
+}
+
+function mainView () {
+  return html`<body></body>`
+}
+
+]]>
+  </content>
+  <tabTrigger>choo-app</tabTrigger>
+</snippet>
