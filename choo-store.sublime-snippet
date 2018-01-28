@@ -1,0 +1,16 @@
+<snippet>
+  <content>
+<![CDATA[
+module.exports = store
+
+function store (state, emitter) {
+  $0
+  emitter.on('DOMContentLoaded', function () {
+    
+  })
+}
+
+]]>
+  </content>
+  <tabTrigger>choo-store</tabTrigger>
+</snippet>

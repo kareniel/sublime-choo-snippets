@@ -1,0 +1,15 @@
+<snippet>
+  <content>
+<![CDATA[
+var html = require('choo/html')
+
+module.exports = view
+
+function view (state, emit) {
+  return `<div>$0</div>`
+}
+
+]]>
+  </content>
+  <tabTrigger>choo-view</tabTrigger>
+</snippet>
