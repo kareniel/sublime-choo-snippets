@@ -1,5 +1,5 @@
 <snippet>
-  <content>
+	<content>
 <![CDATA[
 var choo = require('choo')
 var html = require('choo/html')
@@ -10,16 +10,19 @@ choo.route('/', mainView)
 choo.mount('body')
 
 function store (state, emitter) {
-  emitter.on('DOMContentLoaded', function () {
-    $0
-  })
+	emitter.on('DOMContentLoaded', function () {
+		
+	})
 }
 
 function mainView () {
-  return html`<body></body>`
+	return html`
+		<body>
+			$0
+		</body>`
 }
 
 ]]>
-  </content>
-  <tabTrigger>choo-app</tabTrigger>
+	</content>
+	<tabTrigger>choo-app</tabTrigger>
 </snippet>
