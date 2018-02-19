@@ -1,6 +1,6 @@
-# st3-choo-snippets
+# sublime-choo-snippets
 
-A collection of choo snippets for Sublime Text 3.
+A collection of [Choo](https://github.com/choojs/choo) snippets for Sublime Text 3.
 
 ## Snippets
 
