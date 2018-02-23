@@ -5,9 +5,9 @@ var choo = require('choo')
 var html = require('choo/html')
 var app = choo()
 
-choo.use(store)
-choo.route('/', mainView)
-choo.mount('body')
+app.use(store)
+app.route('/', mainView)
+app.mount('body')
 
 function store (state, emitter) {
 	emitter.on('DOMContentLoaded', function () {
