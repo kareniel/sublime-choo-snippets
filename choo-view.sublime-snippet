@@ -6,7 +6,7 @@ var html = require('choo/html')
 module.exports = view
 
 function view (state, emit) {
-	return `<div>$0</div>`
+	return html`<div>$0</div>`
 }
 
 ]]>
